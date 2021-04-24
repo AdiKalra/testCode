@@ -148,44 +148,44 @@ class ChatInterface(Frame):
 						if user_gender == 'Man':
 							mov_list = ["a1","b1","c1"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
-							self.bot_text()
+							self.bot_text('You should watch {}'.format(ch))
+							# self.bot_text()
 						else:
 							mov_list = ["a2","b2","c2"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)	
+							self.bot_text('You should watch {}'.format(ch))
 					elif user_emotion == 'sad':
 						if user_gender == 'Man':
 							mov_list = ["a3","b3","c3"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
+							self.bot_text('You should watch {}'.format(ch))
 							# self.bot_text('You should watch "Kung Fu Panda"')
 						else:
 							mov_list = ["a4","b4","c4"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
+							self.bot_text('You should watch {}'.format(ch))
 							# self.bot_text('You should watch "The Little Mermaid."')	
 					elif user_emotion == 'happy':
 						if user_gender == 'Man':
 							mov_list = ["a5","b5","c5"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
+							self.bot_text('You should watch {}'.format(ch))
 							# self.bot_text('You should watch "Cars"')
 						else:
 							mov_list = ["a6","b6","c6"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
+							self.bot_text('You should watch {}'.format(ch))
 							# self.bot_text('You should watch "Finding Nemo"')
 					else:
 						if user_gender == 'Man':
 							mov_list = ["a7","b7","c7"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
+							self.bot_text('You should watch {}'.format(ch))
 							# self.bot_text('You should watch "The Lion King"')
 						else:
 							mov_list = ["a8","b8","c8"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
+							self.bot_text('You should watch {}'.format(ch))
 							# self.bot_text('You should watch "Mulan"')
 								
 
@@ -196,46 +196,46 @@ class ChatInterface(Frame):
 						if user_gender == 'Man':
 							mov_list = ["a9","b9","c9"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
+							self.bot_text('You should watch {}'.format(ch))
 							# self.bot_text('You should watch "Avengers"')
 						else:
 
 							mov_list = ["a10","b10","c10"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
+							self.bot_text('You should watch {}'.format(ch))
 							# self.bot_text('You should watch "Yeh Jawani Hai Diwani."')								
 					elif user_emotion == 'sad':
 						if user_gender == 'Man':
 							mov_list = ["a11","b11","c11"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
+							self.bot_text('You should watch {}'.format(ch))
 							# self.bot_text('You should watch "Andhadhun"')
 						else:
 							mov_list = ["a12","b12","c12"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
+							self.bot_text('You should watch {}'.format(ch))
 							# self.bot_text('You should watch "Chhichhore"')	
 					elif user_emotion == 'happy':
 						if user_gender == 'Man':
 							mov_list = ["a13","b13","c13"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
+							self.bot_text('You should watch {}'.format(ch))
 							# self.bot_text('You should watch "De dana dhan"')
 						else:
 							mov_list = ["a14","b14","c14"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
+							self.bot_text('You should watch {}'.format(ch))
 							# self.bot_text('You should watch "Luka Chuppi"')	
 					else:
 						if user_gender == 'Man':
 							mov_list = ["a15","b15","c15"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
+							self.bot_text('You should watch {}'.format(ch))
 							# self.bot_text('You should watch "Bhaag Milkha Bhaag"')
 						else:
 							mov_list = ["a16","b16","c16"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
+							self.bot_text('You should watch {}'.format(ch))
 							# self.bot_text('You should watch "Stree"')
 
 
@@ -245,45 +245,45 @@ class ChatInterface(Frame):
 						if user_gender == 'Man':
 							mov_list = ["a17","b17","c17"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
+							self.bot_text('You should watch {}'.format(ch))
 							# self.bot_text('You should watch "Jo Jeeta Wohi Sikandar"')
 						else:
 							mov_list = ["a18","b18","c18"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
+							self.bot_text('You should watch {}'.format(ch))
 							# self.bot_text('You should watch "Saaransh"')								
 					elif user_emotion == 'sad':
 						if user_gender == 'Man':
 							mov_list = ["a19","b19","c19"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
+							self.bot_text('You should watch {}'.format(ch))
 							# self.bot_text('You should watch "Lakshya "')
 						else:
 							mov_list = ["a20","b20","c20"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
+							self.bot_text('You should watch {}'.format(ch))
 							# self.bot_text('You should watch "Baghban"')	
 					elif user_emotion == 'happy':
 						if user_gender == 'Man':
 							mov_list = ["a21","b21","c21"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
+							self.bot_text('You should watch {}'.format(ch))
 							# self.bot_text('You should watch "Rocket Singh"')
 						else:
 							mov_list = ["a22","b22","c22"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
+							self.bot_text('You should watch {}'.format(ch))
 							# self.bot_text('You should watch "Dil Chahta Hai"')	
 					else:
 						if user_gender == 'Man':
 							mov_list = ["a23","b23","c23"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
+							self.bot_text('You should watch {}'.format(ch))
 							# self.bot_text('You should watch "Lage Raho Munna Bhai"')
 						else:
 							mov_list = ["a24","b24","c24"]
 							ch = rand.choice(mov_list)
-							self.bot_text('You should watch ', ch)
+							self.bot_text('You should watch {}'.format(ch))
 							# self.bot_text('You should watch "Ankhon Dekhi"')
 
 		self.last_sent_label(str(time.strftime( "Last message sent: " + '%B %d, %Y' + ' at ' + '%I:%M %p')))
